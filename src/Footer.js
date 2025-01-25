@@ -15,7 +15,7 @@ export default function Footer() {
         </a>
         , project hosted on{" "}
         <a
-          href="https://codesandbox.io/p/sandbox/inspiring-tereshkova-kqqylt" rel="noreferrer"
+          href="https://react-vaeder.netlify.app/" rel="noreferrer"
           target="_blank"
         >
           Netlify
