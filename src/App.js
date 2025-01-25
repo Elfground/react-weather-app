@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Header";
+import CurrentWeather from "./CurrentWeather";
+import WeatherData from "./WeatherData";
+import Footer from "./Footer";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <section>
+        <Header />
+        <main>
+          <CurrentWeather city="Falun" temperature={-14} />
+          <WeatherData
+            day="Sunday"
+            time="18:50"
+            humidity={70}
+            windspeed={0.97}
+            conditions="scattered clouds"
+          />
+          <div class="weather-forecast" id="forecast"></div>
+        </main>
+      </section>
+      <Footer />
     </div>
   );
 }
-
-export default App;

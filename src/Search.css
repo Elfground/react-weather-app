@@ -1,0 +1,39 @@
+.Search form {
+  font-family: "Roboto", system-ui, arial;
+  font-weight: 100;
+  font-style: normal;
+  padding: 10px;
+}
+.Search input[type="search"] {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.Search input[type="submit"] {
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+}
+.Search .search-form-input {
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  width: 65%;
+  margin: 0px 20px 0px 30px;
+  box-shadow: 3px 10px 7px rgba(0, 0, 0, 0.2);
+}
+.Search .search-button {
+  border: none;
+  border-radius: 5px;
+  background: #cfcce6;
+  padding: 15px;
+  width: 20%;
+  margin: 0px 10px 0px 0px;
+  box-shadow: 3px 10px 7px rgba(0, 0, 0, 0.2);
+}
+.Search .search-button:hover {
+  background: #afa7d3;
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}

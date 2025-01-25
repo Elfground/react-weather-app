@@ -1,0 +1,10 @@
+.Footer footer {
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  font-size: 13px;
+  font-family: "Roboto", system-ui, arial;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+}

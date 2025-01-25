@@ -1,0 +1,10 @@
+.CurrentWeather h2 {
+  text-align: center;
+  font-family: "Roboto", system-ui, arial;
+  font-size: 40px;
+  font-weight: 300;
+  font-style: normal;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
