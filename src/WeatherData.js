@@ -17,6 +17,7 @@ export default function WeatherData(props) {
             src="images/broken-clouds-night.png"
             class="weather-app-icon"
             width="150"
+            alt="broken clouds night"
           />
         </div>
         <div class="app-data-conditions">
